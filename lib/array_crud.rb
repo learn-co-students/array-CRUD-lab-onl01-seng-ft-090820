@@ -32,6 +32,6 @@ def retrieve_first_element_from_array(array)
 end
 
 def retrieve_last_element_from_array(array)
-  chocolate = ["Snickers", "Reeses", "Toblerone", "M&Ms"]
-  chocolate.third
+  x = array.num
+  array[x-1]
 end
