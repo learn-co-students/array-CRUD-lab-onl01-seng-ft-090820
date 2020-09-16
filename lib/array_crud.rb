@@ -2,7 +2,7 @@ def create_an_empty_array
   [ ]
 end
 
-def create_an_array(chocolate)
+def create_an_array
   chocolate = ["Snickers", "Reeses", "Toblerone", "M&Ms"]
     puts "#{chocolate}"
 end
@@ -20,7 +20,6 @@ def remove_element_from_end_of_array(array)
 end
 
 def remove_element_from_start_of_array(array)
-  chocolate = ["Snickers", "Reeses", "Toblerone", "M&Ms"]
   chocolate.shift
 end
 
