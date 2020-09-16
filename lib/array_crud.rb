@@ -3,8 +3,7 @@ def create_an_empty_array
 end
 
 def create_an_array
-  chocolate = ["Snickers", "Reeses", "Toblerone", "M&Ms"]
-    puts "#{chocolate}"
+  ["Snickers", "Reeses", "Toblerone", "M&Ms"]
 end
 
 def add_element_to_end_of_array(array, element)
