@@ -1,35 +1,41 @@
 def create_an_empty_array
-  
+  [ ]
 end
 
-def create_an_array
-  
+def create_an_array(chocolate)
+  chocolate = ["Snickers", "Reeses", "Toblerone", "M&Ms"]
+    puts "#{chocolate}"
 end
 
-def add_element_to_end_of_array(array, element)
-  
+def add_element_to_end_of_array(chocolate)
+  chocolate.push("Kit Kat")
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  chocolate.unshift("Kit Kat")
 end
 
 def remove_element_from_end_of_array(array)
-  
+  chocolate = ["Snickers", "Reeses", "Toblerone", "M&Ms"]
+  chocolate.pop
 end
 
 def remove_element_from_start_of_array(array)
-  
+  chocolate = ["Snickers", "Reeses", "Toblerone", "M&Ms"]
+  chocolate.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  
+  chocolate = ["Snickers", "Reeses", "Toblerone", "M&Ms"]
+  chocolate[2]
 end
 
 def retrieve_first_element_from_array(array)
-  
+  chocolate = ["Snickers", "Reeses", "Toblerone", "M&Ms"]
+  chocolate.second
 end
 
 def retrieve_last_element_from_array(array)
-  
+  chocolate = ["Snickers", "Reeses", "Toblerone", "M&Ms"]
+  chocolate.third
 end
